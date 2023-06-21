@@ -2,8 +2,10 @@
 
 function palindrome(str){
 	let original = str;
-	let revStr = str.reverse();
-	if(original===revStr)
+	let arrStr = str.split();
+	let rev = arrStr.revrse();
+	let ans = rev.join('');
+	if(original===ans)
 		true;
 	else
 		false;
